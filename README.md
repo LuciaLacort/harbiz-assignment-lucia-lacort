@@ -31,6 +31,4 @@ To run unit testing, I used the Jest framework. To do this, I imported the class
 
 Thank you to the entire team for the opportunity and for taking the time to review my solution. In programming, there are many ways to reach the same solution, and I hope I have chosen a good path. Regardless, I would love to receive your feedback as it will help me progress.
 
-## 🤓 Follow my progress
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lacortlucia/)
 
