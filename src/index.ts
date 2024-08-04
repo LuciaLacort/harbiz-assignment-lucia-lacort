@@ -1,6 +1,6 @@
 import { Trainer } from './trainer';
 import { Client } from './client';
-import { assignClientsToTrainers } from './satisfaction';
+import { assignClientsToTrainers } from './match';
 
 const trainers: Trainer[] = [
     new Trainer('A', 4.5, 1),

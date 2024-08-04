@@ -1,4 +1,4 @@
-import { assignClientsToTrainers } from '../src/satisfaction';
+import { assignClientsToTrainers } from '../src/match';
 import { Trainer } from '../src/trainer';
 import { Client } from '../src/client';
 
