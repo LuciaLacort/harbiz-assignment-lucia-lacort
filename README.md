@@ -24,8 +24,11 @@ To write the code, in addition to making the necessary configurations, I have se
 
 ## ✅ The test
 
-To run unit testing, I used the Jest framework. To do this, I imported the classes and functions, defined two arrays of test data, and then performed the checks using Jest's 'expect' function. To make it easier to use, I configured the project's scripts so that the tests can be run with npm run test.
+To run unit testing, I used the Jest framework. To do this, I imported the classes and functions, defined two arrays of test data, and then performed the checks using Jest's 'expect' function. To make it easier to use, I configured the project's scripts so that the tests can be run with 'npm run test'.
 
+## 🪄 Try it!
+
+You just have to clone the repository, open it in Visual Studio Code, open a new terminal, and run 'npm run test'. There, you'll be able to see the function's result and how the unit test is executed.
 
 ## ⏩ Next steps
 
