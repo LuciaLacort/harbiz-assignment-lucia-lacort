@@ -28,7 +28,18 @@ To run unit testing, I used the Jest framework. To do this, I imported the class
 
 ## 🪄 Try it!
 
-You just have to clone the repository, open it in Visual Studio Code, open a new terminal, and run 'npm run test'. There, you'll be able to see the function's result and how the unit test is executed.
+This project was developed using Node.js and TypeScript. I decided not to compile the code to JavaScript to maintain a more fluid and straightforward workflow. To run the project and tests, ts-node was used.
+
+### How to run the project:
+
+1. Clone the repository and open it in Visual Studio Code.
+2. Open a new terminal and run the following commands:
+
+   - `npm install` (to install the dependencies)
+   - `npx ts-node src/index.ts` (to run the code)
+   - `npm test` (to run the tests)
+
+You’ll be able to see the function's result and how the unit tests are executed.
 
 ## ⏩ Next steps
 
