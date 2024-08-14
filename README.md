@@ -26,8 +26,22 @@ To write the code, in addition to making the necessary configurations, I have se
 
 ## ✅ The test
 
-To run unit testing, I used the Jest framework. To do this, I imported the classes and functions, defined two arrays of test data, and then performed the checks using Jest's 'expect' function. To make it easier to use, I configured the project's scripts so that the tests can be run with npm run test.
+To run unit testing, I used the Jest framework. To do this, I imported the classes and functions, defined two arrays of test data, and then performed the checks using Jest's 'expect' function. To make it easier to use, I configured the project's scripts so that the tests can be run with 'npm run test'.
 
+## 🪄 Try it!
+
+This project was developed using Node.js and TypeScript. I decided not to compile the code to JavaScript to maintain a more fluid and straightforward workflow. To run the project and tests, ts-node was used.
+
+### How to run the project:
+
+1. Clone the repository and open it in Visual Studio Code.
+2. Open a new terminal and run the following commands:
+
+   - `npm install` (to install the dependencies)
+   - `npx ts-node src/index.ts` (to run the code)
+   - `npm test` (to run the tests)
+
+You’ll be able to see the function's result and how the unit tests are executed.
 
 ## ⏩ Next steps
 
