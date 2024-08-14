@@ -23,18 +23,20 @@ test('assign clients to trainers based on reputation and availability', () => {
         new Client('z', 2.5)
     ];
 
-    const assignments = assignClientsToTrainers(trainers, clients);
+    const result = assignClientsToTrainers(trainers, clients);
+    const assignments = result.assignments;
 
-    console.log(assignments); 
-
-    expect(assignments.get('t')).toBe('A');
-    expect(assignments.get('s')).toBe('D');    
-    expect(assignments.get('y')).toBe('D');    
+    expect(assignments.get('t')).toBe('A');   
+    expect(assignments.get('s')).toBe('D');   
+    expect(assignments.get('y')).toBe('D');   
     expect(assignments.get('w')).toBe('B');   
     expect(assignments.get('v')).toBe('B');   
-    expect(assignments.get('r')).toBe('B');  
-    expect(assignments.get('x')).toBe('B');    
+    expect(assignments.get('r')).toBe('B');   
+    expect(assignments.get('x')).toBe('B');   
     expect(assignments.get('q')).toBe('C');   
     expect(assignments.get('u')).toBe('C');   
     expect(assignments.get('z')).toBe('C');   
+
+ 
+    expect(result.satisfaction).toBeCloseTo(100);  
 });

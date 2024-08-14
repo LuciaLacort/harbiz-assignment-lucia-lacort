@@ -17,6 +17,8 @@ The function iterates over the already sorted lists and if the trainer with the 
 
 The idea is to always assign the trainer with the highest rating who has an available slot to the client who places the most importance on the trainer's reputation, in order to achieve the highest level of client satisfaction.
 
+To calculate overall customer satisfaction, I've considered that each customer will be satisfied if they are assigned a trainer based on their criteria (in this case, the importance they place on the trainer's reputation). Therefore, I need to determine what percentage of customers were assigned a trainer and did not receive the "Trainer not available" message. To do this, I divided the number of customers who were successfully assigned a trainer by the total number of customers and multiplied it by 100 to obtain that percentage.
+
 
 ## 💻 The code
 
